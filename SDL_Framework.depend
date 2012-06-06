@@ -1,0 +1,561 @@
+# depslib dependency file v1.0
+1338111423 source:/home/moisex/Desktop/SDL_Framework/editor/Editor.cpp
+	"Editor.h"
+
+1338111423 /home/moisex/Desktop/SDL_Framework/editor/Editor.h
+	"../lib/Render.h"
+	<map>
+
+1338954309 /home/moisex/Desktop/SDL_Framework/lib/Render.h
+	"RenderArea.h"
+	"Drawer.h"
+	"Container.h"
+	"TextRender.h"
+	<SDL/SDL.h>
+	<SDL/SDL_opengl.h>
+	<SDL/SDL_thread.h>
+	<GL/glu.h>
+	<iostream>
+	"keys.h"
+	"videoutil.h"
+	"ParticleGenerator.h"
+	"Player.h"
+	"Environment.h"
+	"TextureLoader.h"
+	"Audio/AudioPlayback.h"
+	"Log.h"
+	"MenuHandler.h"
+
+1338263961 /home/moisex/Desktop/SDL_Framework/lib/RenderArea.h
+	"Interfaces/GeometricElement.h"
+	"videoutil.h"
+
+1338945356 /home/moisex/Desktop/SDL_Framework/lib/Interfaces/GeometricElement.h
+
+1338261595 /home/moisex/Desktop/SDL_Framework/lib/videoutil.h
+	"DisplayConfig.h"
+
+1338111423 /home/moisex/Desktop/SDL_Framework/lib/DisplayConfig.h
+	<fstream>
+	<iostream>
+	<sstream>
+	<string>
+	<vector>
+	<map>
+	<stdlib.h>
+	<cstdlib>
+	"../utils/Log.h"
+
+1338111424 /home/moisex/Desktop/SDL_Framework/utils/Log.h
+	<fstream>
+	<iostream>
+	<cstdlib>
+	<string>
+	<exception>
+
+1338446964 /home/moisex/Desktop/SDL_Framework/lib/Drawer.h
+	"Draw.h"
+	"Drawable.h"
+
+1338111423 /home/moisex/Desktop/SDL_Framework/lib/Draw.h
+
+1338947846 /home/moisex/Desktop/SDL_Framework/lib/Drawable.h
+	"Draw.h"
+	"Interfaces/GeometricElement.h"
+	"Log.h"
+	"EventInterface.h"
+	<SDL/SDL.h>
+	<SDL/SDL_opengl.h>
+
+1338954388 /home/moisex/Desktop/SDL_Framework/lib/EventInterface.h
+	"sigc++/sigc++.h"
+	<SDL/SDL.h>
+
+1336704632 /usr/local/include/sigc++-2.0/sigc++/sigc++.h
+	<sigc++/signal.h>
+	<sigc++/connection.h>
+	<sigc++/trackable.h>
+	<sigc++/adaptors/adaptors.h>
+	<sigc++/functors/functors.h>
+
+1336704632 /usr/local/include/sigc++-2.0/sigc++/signal.h
+	<list>
+	<sigc++/signal_base.h>
+	<sigc++/type_traits.h>
+	<sigc++/trackable.h>
+	<sigc++/functors/slot.h>
+	<sigc++/functors/mem_fun.h>
+
+1336704632 /usr/local/include/sigc++-2.0/sigc++/signal_base.h
+	<cstddef>
+	<list>
+	<sigc++config.h>
+	<sigc++/type_traits.h>
+	<sigc++/trackable.h>
+	<sigc++/functors/slot.h>
+	<sigc++/functors/mem_fun.h>
+
+1336704634 /usr/local/lib/sigc++-2.0/include/sigc++config.h
+
+1336704632 /usr/local/include/sigc++-2.0/sigc++/type_traits.h
+	<sigc++config.h>
+
+1336704632 /usr/local/include/sigc++-2.0/sigc++/trackable.h
+	<list>
+	<sigc++config.h>
+
+1336704632 /usr/local/include/sigc++-2.0/sigc++/functors/slot.h
+	<sigc++/trackable.h>
+	<sigc++/visit_each.h>
+	<sigc++/adaptors/adaptor_trait.h>
+	<sigc++/functors/slot_base.h>
+
+1336704632 /usr/local/include/sigc++-2.0/sigc++/visit_each.h
+	<sigc++/type_traits.h>
+
+1336704632 /usr/local/include/sigc++-2.0/sigc++/adaptors/adaptor_trait.h
+	<sigc++config.h>
+	<sigc++/visit_each.h>
+	<sigc++/functors/functor_trait.h>
+	<sigc++/functors/ptr_fun.h>
+	<sigc++/functors/mem_fun.h>
+	<sigc++/adaptors/deduce_result_type.h>
+
+1336704632 /usr/local/include/sigc++-2.0/sigc++/functors/functor_trait.h
+	<sigc++/type_traits.h>
+
+1336704632 /usr/local/include/sigc++-2.0/sigc++/functors/ptr_fun.h
+	<sigc++/type_traits.h>
+	<sigc++/functors/functor_trait.h>
+
+1336704632 /usr/local/include/sigc++-2.0/sigc++/functors/mem_fun.h
+	<sigc++/type_traits.h>
+	<sigc++/functors/functor_trait.h>
+	<sigc++/limit_reference.h>
+
+1336704632 /usr/local/include/sigc++-2.0/sigc++/limit_reference.h
+	<sigc++/type_traits.h>
+	<sigc++/trackable.h>
+
+1336704632 /usr/local/include/sigc++-2.0/sigc++/adaptors/deduce_result_type.h
+	<sigc++/functors/functor_trait.h>
+
+1336704632 /usr/local/include/sigc++-2.0/sigc++/functors/slot_base.h
+	<sigc++config.h>
+	<sigc++/trackable.h>
+	<sigc++/functors/functor_trait.h>
+
+1336704632 /usr/local/include/sigc++-2.0/sigc++/connection.h
+	<sigc++config.h>
+	<sigc++/signal.h>
+
+1336704632 /usr/local/include/sigc++-2.0/sigc++/adaptors/adaptors.h
+	<sigc++/adaptors/bind.h>
+	<sigc++/adaptors/bind_return.h>
+	<sigc++/adaptors/hide.h>
+	<sigc++/adaptors/retype_return.h>
+	<sigc++/adaptors/retype.h>
+	<sigc++/adaptors/compose.h>
+	<sigc++/adaptors/exception_catch.h>
+	<sigc++/adaptors/lambda/lambda.h>
+
+1336704632 /usr/local/include/sigc++-2.0/sigc++/adaptors/bind.h
+	<sigc++/adaptors/adaptor_trait.h>
+	<sigc++/adaptors/bound_argument.h>
+
+1336704632 /usr/local/include/sigc++-2.0/sigc++/adaptors/bound_argument.h
+	<sigc++/limit_reference.h>
+	<sigc++/reference_wrapper.h>
+
+1336704632 /usr/local/include/sigc++-2.0/sigc++/reference_wrapper.h
+
+1336704632 /usr/local/include/sigc++-2.0/sigc++/adaptors/bind_return.h
+	<sigc++/adaptors/adaptor_trait.h>
+	<sigc++/adaptors/bound_argument.h>
+
+1336704632 /usr/local/include/sigc++-2.0/sigc++/adaptors/hide.h
+	<sigc++/adaptors/adaptor_trait.h>
+
+1336704632 /usr/local/include/sigc++-2.0/sigc++/adaptors/retype_return.h
+	<sigc++/adaptors/adaptor_trait.h>
+
+1336704632 /usr/local/include/sigc++-2.0/sigc++/adaptors/retype.h
+	<sigc++/adaptors/adaptor_trait.h>
+	<sigc++/functors/ptr_fun.h>
+	<sigc++/functors/mem_fun.h>
+	<sigc++/functors/slot.h>
+
+1336704632 /usr/local/include/sigc++-2.0/sigc++/adaptors/compose.h
+	<sigc++/adaptors/adaptor_trait.h>
+
+1336704632 /usr/local/include/sigc++-2.0/sigc++/adaptors/exception_catch.h
+	<sigc++/adaptors/adaptor_trait.h>
+
+1336704632 /usr/local/include/sigc++-2.0/sigc++/adaptors/lambda/lambda.h
+	<sigc++/adaptors/lambda/base.h>
+	<sigc++/adaptors/lambda/select.h>
+	<sigc++/adaptors/lambda/operator.h>
+	<sigc++/adaptors/lambda/group.h>
+
+1336704632 /usr/local/include/sigc++-2.0/sigc++/adaptors/lambda/base.h
+	<sigc++/adaptors/adaptor_trait.h>
+	<sigc++/reference_wrapper.h>
+
+1336704632 /usr/local/include/sigc++-2.0/sigc++/adaptors/lambda/select.h
+	<sigc++/adaptors/lambda/base.h>
+
+1336704632 /usr/local/include/sigc++-2.0/sigc++/adaptors/lambda/operator.h
+	<sigc++/adaptors/lambda/base.h>
+
+1336704632 /usr/local/include/sigc++-2.0/sigc++/adaptors/lambda/group.h
+	<sigc++/adaptors/lambda/base.h>
+
+1336704632 /usr/local/include/sigc++-2.0/sigc++/functors/functors.h
+	<sigc++/functors/slot.h>
+	<sigc++/functors/ptr_fun.h>
+	<sigc++/functors/mem_fun.h>
+
+1338451938 /home/moisex/Desktop/SDL_Framework/lib/Container.h
+	<vector>
+	"Drawable.h"
+	"Render.h"
+
+1338111423 /home/moisex/Desktop/SDL_Framework/lib/ParticleGenerator.h
+	<cstdlib>
+	<iostream>
+	<vector>
+	<math.h>
+	"Particle.h"
+
+1338111423 /home/moisex/Desktop/SDL_Framework/lib/Particle.h
+
+1338447617 /home/moisex/Desktop/SDL_Framework/lib/Player.h
+	"Actors/Gun.h"
+	"ParticleGenerator.h"
+	"Audio/AudioPlayback.h"
+
+1338449459 /home/moisex/Desktop/SDL_Framework/lib/Actors/Gun.h
+	<string>
+	"Weapon.h"
+
+1338111423 /home/moisex/Desktop/SDL_Framework/lib/Actors/Weapon.h
+
+1338111423 /home/moisex/Desktop/SDL_Framework/lib/Audio/AudioPlayback.h
+	<SDL/SDL_mixer.h>
+	<map>
+	<string>
+	<vector>
+	"../../utils/Log.h"
+
+1338449199 /home/moisex/Desktop/SDL_Framework/lib/Environment.h
+
+1338111423 /home/moisex/Desktop/SDL_Framework/lib/MenuHandler.h
+	"Menu.h"
+
+1338111423 /home/moisex/Desktop/SDL_Framework/lib/Menu.h
+	"../utils/TextRender.h"
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_opengl.h>
+	<string>
+	<list>
+	"Drawable.h"
+	"MenuOption.h"
+	"EventInterface.h"
+	<sstream>
+	"videoutil.h"
+	"../utils/Log.h"
+	"../utils/keys.h"
+	"../utils/ImageManager.h"
+	"../utils/stringfunctions.h"
+	"sigc++/sigc++.h"
+
+1338111424 /home/moisex/Desktop/SDL_Framework/utils/TextRender.h
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<iostream>
+	<sstream>
+	<string>
+	"Log.h"
+
+1338447686 /home/moisex/Desktop/SDL_Framework/lib/MenuOption.h
+
+1338270862 /home/moisex/Desktop/SDL_Framework/utils/keys.h
+	<SDL/SDL.h>
+
+1338111424 /home/moisex/Desktop/SDL_Framework/utils/ImageManager.h
+	<map>
+	<string>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_opengl.h>
+	"Log.h"
+
+1332382876 /home/moisex/Desktop/SDL_Framework/utils/stringfunctions.h
+	<sstream>
+
+1338449482 source:/home/moisex/Desktop/SDL_Framework/lib/Actors/Gun.cpp
+	"Gun.h"
+
+1329372181 source:/home/moisex/Desktop/SDL_Framework/lib/Actors/Weapon.cpp
+	"Weapon.h"
+
+1338767984 source:/home/moisex/Desktop/SDL_Framework/lib/Application.cpp
+	"Application.h"
+
+1338452440 /home/moisex/Desktop/SDL_Framework/lib/Application.h
+	"Core.h"
+	"keys.h"
+
+1338449387 /home/moisex/Desktop/SDL_Framework/lib/Core.h
+	"Render.h"
+	"EventTriggerer.h"
+	"keys.h"
+	"Container.h"
+
+1338447911 /home/moisex/Desktop/SDL_Framework/lib/EventTriggerer.h
+	<SDL/SDL.h>
+	"Log.h"
+	"keys.h"
+
+1338111423 source:/home/moisex/Desktop/SDL_Framework/lib/Audio/AudioPlayback.cpp
+	"AudioPlayback.h"
+
+1338451356 source:/home/moisex/Desktop/SDL_Framework/lib/Container.cpp
+	"Container.h"
+
+1338449627 source:/home/moisex/Desktop/SDL_Framework/lib/Core.cpp
+	"Core.h"
+
+1338111423 source:/home/moisex/Desktop/SDL_Framework/lib/DisplayConfig.cpp
+	"DisplayConfig.h"
+
+1338432001 source:/home/moisex/Desktop/SDL_Framework/lib/Drawer.cpp
+	"Drawer.h"
+
+1338111423 source:/home/moisex/Desktop/SDL_Framework/lib/Environment.cpp
+	"Environment.h"
+
+1338111423 source:/home/moisex/Desktop/SDL_Framework/lib/EventHandler.cpp
+	"EventHandler.h"
+
+1338111423 /home/moisex/Desktop/SDL_Framework/lib/EventHandler.h
+	"../utils/keys.h"
+
+1338112541 source:/home/moisex/Desktop/SDL_Framework/lib/Game.cpp
+	"Game.h"
+
+1338112569 /home/moisex/Desktop/SDL_Framework/lib/Game.h
+	"Render.h"
+	<sstream>
+
+1338111423 source:/home/moisex/Desktop/SDL_Framework/lib/Menu.cpp
+	"Menu.h"
+
+1338111423 source:/home/moisex/Desktop/SDL_Framework/lib/MenuHandler.cpp
+	"MenuHandler.h"
+
+1338111423 source:/home/moisex/Desktop/SDL_Framework/lib/Particle.cpp
+	"Particle.h"
+
+1338111423 source:/home/moisex/Desktop/SDL_Framework/lib/ParticleGenerator.cpp
+	"ParticleGenerator.h"
+
+1338449424 source:/home/moisex/Desktop/SDL_Framework/lib/Player.cpp
+	"Player.h"
+
+1338953174 source:/home/moisex/Desktop/SDL_Framework/lib/Render.cpp
+	"Render.h"
+
+1338957698 source:/home/moisex/Desktop/SDL_Framework/main.cpp
+	<cstddef>
+	"Application.h"
+
+1336706076 /home/moisex/Desktop/SDL_Framework/utils/sigc++/sigc++.h
+	"signal.h"
+	"connection.h"
+	"trackable.h"
+	"adaptors/adaptors.h"
+	"functors/functors.h"
+
+1336706043 /home/moisex/Desktop/SDL_Framework/utils/sigc++/signal.h
+	<list>
+	"signal_base.h"
+	"type_traits.h"
+	"trackable.h"
+	"functors/slot.h"
+	"functors/mem_fun.h"
+
+1338957741 /home/moisex/Desktop/SDL_Framework/utils/sigc++/signal_base.h
+	<cstddef>
+	<list>
+	"sigc++config.h"
+	"type_traits.h"
+	"trackable.h"
+	"functors/slot.h"
+	"functors/mem_fun.h"
+
+1336700092 /home/moisex/Desktop/SDL_Framework/utils/sigc++/sigc++config.h
+
+1336705326 /home/moisex/Desktop/SDL_Framework/utils/sigc++/type_traits.h
+	"sigc++config.h"
+
+1336705352 /home/moisex/Desktop/SDL_Framework/utils/sigc++/trackable.h
+	<list>
+	"sigc++config.h"
+
+1336705549 /home/moisex/Desktop/SDL_Framework/utils/sigc++/functors/slot.h
+	"../trackable.h"
+	"../visit_each.h"
+	"../adaptors/adaptor_trait.h"
+	"../functors/slot_base.h"
+
+1336705536 /home/moisex/Desktop/SDL_Framework/utils/sigc++/visit_each.h
+	"type_traits.h"
+
+1336705641 /home/moisex/Desktop/SDL_Framework/utils/sigc++/adaptors/adaptor_trait.h
+	"../sigc++config.h"
+	"../visit_each.h"
+	"../functors/functor_trait.h"
+	"../functors/ptr_fun.h"
+	"../functors/mem_fun.h"
+	"../adaptors/deduce_result_type.h"
+
+1336705656 /home/moisex/Desktop/SDL_Framework/utils/sigc++/functors/functor_trait.h
+	"../type_traits.h"
+
+1336705679 /home/moisex/Desktop/SDL_Framework/utils/sigc++/functors/ptr_fun.h
+	"../type_traits.h"
+	"../functors/functor_trait.h"
+
+1336705718 /home/moisex/Desktop/SDL_Framework/utils/sigc++/functors/mem_fun.h
+	"../type_traits.h"
+	"../functors/functor_trait.h"
+	"../limit_reference.h"
+
+1336705807 /home/moisex/Desktop/SDL_Framework/utils/sigc++/limit_reference.h
+	"type_traits.h"
+	"trackable.h"
+
+1336705823 /home/moisex/Desktop/SDL_Framework/utils/sigc++/adaptors/deduce_result_type.h
+	"../functors/functor_trait.h"
+
+1336705870 /home/moisex/Desktop/SDL_Framework/utils/sigc++/functors/slot_base.h
+	"../sigc++config.h"
+	"../trackable.h"
+	"../functors/functor_trait.h"
+
+1336706110 /home/moisex/Desktop/SDL_Framework/utils/sigc++/connection.h
+	"sigc++config.h"
+	"signal.h"
+
+1336706181 /home/moisex/Desktop/SDL_Framework/utils/sigc++/adaptors/adaptors.h
+	"bind.h"
+	"bind_return.h"
+	"hide.h"
+	"retype_return.h"
+	"retype.h"
+	"compose.h"
+	"exception_catch.h"
+	"lambda/lambda.h"
+
+1336706246 /home/moisex/Desktop/SDL_Framework/utils/sigc++/adaptors/bind.h
+	"adaptor_trait.h"
+	"bound_argument.h"
+
+1336706293 /home/moisex/Desktop/SDL_Framework/utils/sigc++/adaptors/bound_argument.h
+	"../limit_reference.h"
+	"../reference_wrapper.h"
+
+1251920269 /home/moisex/Desktop/SDL_Framework/utils/sigc++/reference_wrapper.h
+
+1336706323 /home/moisex/Desktop/SDL_Framework/utils/sigc++/adaptors/bind_return.h
+	"adaptor_trait.h"
+	"bound_argument.h"
+
+1336706342 /home/moisex/Desktop/SDL_Framework/utils/sigc++/adaptors/hide.h
+	"adaptor_trait.h"
+
+1336706356 /home/moisex/Desktop/SDL_Framework/utils/sigc++/adaptors/retype_return.h
+	"adaptor_trait.h"
+
+1336706466 /home/moisex/Desktop/SDL_Framework/utils/sigc++/adaptors/retype.h
+	"adaptor_trait.h"
+	"../functors/ptr_fun.h"
+	"../functors/mem_fun.h"
+	"../functors/slot.h"
+
+1336706496 /home/moisex/Desktop/SDL_Framework/utils/sigc++/adaptors/compose.h
+	"adaptor_trait.h"
+
+1336706566 /home/moisex/Desktop/SDL_Framework/utils/sigc++/adaptors/exception_catch.h
+	"adaptor_trait.h"
+
+1336707132 /home/moisex/Desktop/SDL_Framework/utils/sigc++/adaptors/lambda/lambda.h
+	"base.h"
+	"select.h"
+	"operator.h"
+	"group.h"
+
+1336707097 /home/moisex/Desktop/SDL_Framework/utils/sigc++/adaptors/lambda/base.h
+	"../adaptor_trait.h"
+	"../../reference_wrapper.h"
+
+1336707151 /home/moisex/Desktop/SDL_Framework/utils/sigc++/adaptors/lambda/select.h
+	"base.h"
+
+1336707163 /home/moisex/Desktop/SDL_Framework/utils/sigc++/adaptors/lambda/operator.h
+	"base.h"
+
+1336707173 /home/moisex/Desktop/SDL_Framework/utils/sigc++/adaptors/lambda/group.h
+	"base.h"
+
+1336707195 /home/moisex/Desktop/SDL_Framework/utils/sigc++/functors/functors.h
+	"slot.h"
+	"ptr_fun.h"
+	"mem_fun.h"
+
+1338111424 source:/home/moisex/Desktop/SDL_Framework/utils/ImageManager.cpp
+	"ImageManager.h"
+
+1338111424 source:/home/moisex/Desktop/SDL_Framework/utils/List.cpp
+
+1338111424 source:/home/moisex/Desktop/SDL_Framework/utils/Log.cpp
+	"Log.h"
+
+1338111424 source:/home/moisex/Desktop/SDL_Framework/utils/TextRender.cpp
+	"TextRender.h"
+
+1338449341 /home/moisex/Desktop/SDL_Framework/utils/TextureLoader.h
+	<SDL/SDL.h>
+	<SDL/SDL_opengl.h>
+	<SDL/SDL_image.h>
+
+1338955824 source:/home/moisex/Desktop/SDL_Framework/lib/Drawable.cpp
+	"Drawable.h"
+
+1328786373 source:/home/moisex/Desktop/SDL_Framework/utils/TestMain.cpp
+	"Log.h"
+
+1273000638 source:/home/moisex/Desktop/SDL_Framework/utils/sigc++/adaptors/lambda/lambda.cc
+	<sigc++/adaptors/lambda/select.h>
+
+1251920269 source:/home/moisex/Desktop/SDL_Framework/utils/sigc++/connection.cc
+	<sigc++/connection.h>
+
+1251920269 source:/home/moisex/Desktop/SDL_Framework/utils/sigc++/functors/slot.cc
+	<sigc++/functors/slot.h>
+
+1251920269 source:/home/moisex/Desktop/SDL_Framework/utils/sigc++/functors/slot_base.cc
+	<sigc++/functors/slot_base.h>
+
+1251920269 source:/home/moisex/Desktop/SDL_Framework/utils/sigc++/signal.cc
+	<sigc++/signal.h>
+
+1251920269 source:/home/moisex/Desktop/SDL_Framework/utils/sigc++/signal_base.cc
+	<sigc++/signal_base.h>
+
+1251920269 source:/home/moisex/Desktop/SDL_Framework/utils/sigc++/trackable.cc
+	<sigc++/trackable.h>
+	<iostream>
+

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SDL_Framework" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SDL_Framework" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="utils" />
+					<Add directory="lib" />
+					<Add directory="utils/sigc++" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SDL_Framework" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="`sdl-config --cflags`" />
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add option="`sdl-config --libs`" />
+		</Linker>
+		<Unit filename="cb.bmp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="editor/Editor.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="lib/Actors/Gun.cpp" />
+		<Unit filename="lib/Actors/Gun.h" />
+		<Unit filename="lib/Actors/Spaceship.h" />
+		<Unit filename="lib/Actors/Weapon.cpp" />
+		<Unit filename="lib/Actors/Weapon.h" />
+		<Unit filename="lib/Application.cpp" />
+		<Unit filename="lib/Application.h" />
+		<Unit filename="lib/Audio/AudioPlayback.cpp" />
+		<Unit filename="lib/Audio/AudioPlayback.h" />
+		<Unit filename="lib/Button.h" />
+		<Unit filename="lib/CheckBox.h" />
+		<Unit filename="lib/Container.cpp" />
+		<Unit filename="lib/Container.h" />
+		<Unit filename="lib/Core.cpp" />
+		<Unit filename="lib/Core.h" />
+		<Unit filename="lib/DisplayConfig.cpp" />
+		<Unit filename="lib/DisplayConfig.h" />
+		<Unit filename="lib/Draw.h" />
+		<Unit filename="lib/Drawable.cpp" />
+		<Unit filename="lib/Drawable.h" />
+		<Unit filename="lib/Drawer.cpp" />
+		<Unit filename="lib/Drawer.h" />
+		<Unit filename="lib/Environment.cpp" />
+		<Unit filename="lib/Environment.h" />
+		<Unit filename="lib/EventHandler.cpp" />
+		<Unit filename="lib/EventHandler.h" />
+		<Unit filename="lib/EventInterface.h" />
+		<Unit filename="lib/EventTriggerer.h" />
+		<Unit filename="lib/Game.cpp" />
+		<Unit filename="lib/Game.h" />
+		<Unit filename="lib/Interfaces/GeometricElement.h" />
+		<Unit filename="lib/Menu.cpp" />
+		<Unit filename="lib/MenuHandler.cpp" />
+		<Unit filename="lib/ObjectFactory.h" />
+		<Unit filename="lib/Panel.h" />
+		<Unit filename="lib/Particle.cpp" />
+		<Unit filename="lib/Particle.h" />
+		<Unit filename="lib/ParticleGenerator.cpp" />
+		<Unit filename="lib/ParticleGenerator.h" />
+		<Unit filename="lib/Player.cpp" />
+		<Unit filename="lib/Player.h" />
+		<Unit filename="lib/Read.h" />
+		<Unit filename="lib/Reader.h" />
+		<Unit filename="lib/Render.cpp" />
+		<Unit filename="lib/Render.h" />
+		<Unit filename="lib/Render/Draw.h" />
+		<Unit filename="lib/RenderArea.h" />
+		<Unit filename="lib/States.h" />
+		<Unit filename="lib/World.h" />
+		<Unit filename="lib/WorldHandler.h" />
+		<Unit filename="lib/Write.h" />
+		<Unit filename="lib/Writer.h" />
+		<Unit filename="lib/videoutil.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="utils/ArrayList.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="utils/Color.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="utils/ImageManager.cpp" />
+		<Unit filename="utils/ImageManager.h" />
+		<Unit filename="utils/List.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="utils/List.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="utils/Log.cpp" />
+		<Unit filename="utils/Log.h" />
+		<Unit filename="utils/ObjectLoader.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="utils/SDLIncludeheader.h" />
+		<Unit filename="utils/TestMain.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="utils/TextRender.cpp" />
+		<Unit filename="utils/TextRender.h" />
+		<Unit filename="utils/TextureLoader.h" />
+		<Unit filename="utils/keys.h" />
+		<Unit filename="utils/main.cpp" />
+		<Unit filename="utils/stringfunctions.h">
+			<Option target="Release" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
