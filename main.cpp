@@ -1,6 +1,6 @@
 //#include"lib/Game.h"
 //#include"editor/Editor.h"
-#include <cstddef>
+
 #include "Application.h"
 
 #pragma -lSDL -lGL -lGLU

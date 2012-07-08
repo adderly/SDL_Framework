@@ -15,7 +15,6 @@ class Log
     std::ofstream ofile;
     std::ifstream check;
     std::string defaultDir;
-
 public:
     Log();
     Log(const string defaultLocation);
@@ -26,17 +25,18 @@ public:
     ~Log();
 };
 
+static Log* logger;
 
 
 static void saveLog(std::string data)
 {
-    Log* log = new Log();
-    log->write_to_f("Testing",data);
+    logger = new Log();
+    logger->write_to_f("Testing",data);
 }
 static void saveLog(std::string filename,std::string data)
 {
-    Log* log = new Log();
-    log->write_to_f(filename,data);
+    logger = new Log();
+    logger->write_to_f(filename,data);
 }
 
 
