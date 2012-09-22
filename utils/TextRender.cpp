@@ -1,24 +1,18 @@
 #include"TextRender.h"
 
-namespace Images
-{
 
-Text::Text()
-{
-    init();
-
-}
-Text::Text(std::string txt)
+TextureRender::TextureRender() {}
+TextureRender::TextureRender(std::string txt)
 {
     init();
     this->text = txt;
 }
-Text::Text(SDL_Surface* main)
+TextureRender::TextureRender(SDL_Surface* main)
 {
     init();
     this->tmp = main;
 }
-Text::Text(SDL_Surface* surface,const std::string text,int fontsize)
+TextureRender::TextureRender(SDL_Surface* surface,const std::string TextureRender,int fontsize)
 {
 
     //init();
@@ -26,29 +20,29 @@ Text::Text(SDL_Surface* surface,const std::string text,int fontsize)
     this->text = text;
     this->fontSize = fontsize;
 }
-Text::Text(SDL_Surface *surface,const std::string text,SDL_Color color)
+TextureRender::TextureRender(SDL_Surface *surface,const std::string text,SDL_Color color)
 {
     this->tmp = surface;
     this->text = text;
     this->textColor = color;
 }
-SDL_Surface* Text::generate(const std::string text)
+SDL_Surface* TextureRender::generate(const std::string text)
 {
     tmp = TTF_RenderText_Solid(font,text.c_str(),textColor);
     return tmp;
 }
-SDL_Surface* Text::generate(const std::string text,int size)
+SDL_Surface* TextureRender::generate(const std::string text,int size)
 {
     tmp = TTF_RenderText_Solid(font,text.c_str(),textColor);
     return tmp;
 }
-SDL_Surface* Text::generate(SDL_Surface *texture,const std::string text)
+SDL_Surface* TextureRender::generate(SDL_Surface *texture,const std::string text)
 {
     tmp = texture;
     tmp = TTF_RenderText_Solid(font,text.c_str(),textColor);
     return tmp;
 }
-SDL_Surface* Text::generate(SDL_Surface *texture,const std::string text,int size)
+SDL_Surface* TextureRender::generate(SDL_Surface *texture,const std::string text,int size)
 {
 
     tmp = texture;
@@ -60,13 +54,13 @@ SDL_Surface* Text::generate(SDL_Surface *texture,const std::string text,int size
 
     return tmp;
 }
-SDL_Surface* Text::generate()
+SDL_Surface* TextureRender::generate()
 {
     tmp = TTF_RenderText_Solid(font,text.c_str(),textColor);
     return tmp;
 }
 
-void Text::init()
+void TextureRender::init()
 {
     textColor = {255,255,0,200};
 
@@ -85,7 +79,7 @@ void Text::init()
     }
 
 }
-void Text::loadResources()
+void TextureRender::loadResources()
 {
     try
     {
@@ -100,13 +94,13 @@ void Text::loadResources()
 
 
 }
-void Text::freeResources()
+void TextureRender::freeResources()
 {
     TTF_CloseFont(font);
     font = NULL;
     TTF_Quit();
 }
-Text::~Text() {}
+TextureRender::~TextureRender() {}
 
-}
+
 

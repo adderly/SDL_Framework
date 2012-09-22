@@ -1,4 +1,5 @@
 #include"../utils/TextRender.h"
+#include"../utils/ImageManager.h"
 #include<SDL/SDL.h>
 #include<SDL/SDL_image.h>
 #include<SDL/SDL_opengl.h>
@@ -11,7 +12,6 @@
 #include"videoutil.h"
 #include"../utils/Log.h"
 #include"../utils/keys.h"
-#include"../utils/ImageManager.h"
 #include"../utils/stringfunctions.h"
 #include"sigc++/sigc++.h"
 
@@ -42,8 +42,8 @@ enum layout:
 //
 //};
 //#endif
-#ifndef MENU
-#define MENU
+#ifndef MENU_H
+#define MENU_H
 
 
 class Menu:public Drawable,public EInterface, public sigc::trackable
@@ -56,8 +56,8 @@ class Menu:public Drawable,public EInterface, public sigc::trackable
     std::list<MenuOption*> options;
     std::list<MenuOption*>::iterator it;
     GridOptions gridoptions;
-    Images::ImageManager imgr;
-    Images::Text txt;
+    ImageManager imgr;
+    TextureRender txt;
 
 public:
     friend class Drawable;

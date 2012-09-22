@@ -975,3 +975,415 @@
 1341662301 source:/home/moisex/Documents/Projects/SDL_Framework/utils/TestMain.cpp
 	"Log.h"
 
+1347239701 source:e:\development\c++\sdl_framework\editor\editor.cpp
+	"Editor.h"
+
+1347239701 e:\development\c++\sdl_framework\editor\editor.h
+	"../lib/Render.h"
+	<map>
+
+1347239702 e:\development\c++\sdl_framework\lib\render.h
+	"RenderArea.h"
+	"Drawer.h"
+	"Container.h"
+	"TextRender.h"
+	<SDL/SDL.h>
+	<SDL/SDL_opengl.h>
+	<SDL/SDL_thread.h>
+	<GL/glu.h>
+	<iostream>
+	"keys.h"
+	"videoutil.h"
+	"ParticleGenerator.h"
+	"Player.h"
+	"Environment.h"
+	"TextureLoader.h"
+	"Audio/AudioPlayback.h"
+	"Log.h"
+	"MenuHandler.h"
+
+1347239702 e:\development\c++\sdl_framework\lib\renderarea.h
+	"Interfaces/GeometricElement.h"
+	"videoutil.h"
+
+1347239701 e:\development\c++\sdl_framework\lib\interfaces\geometricelement.h
+
+1347239702 e:\development\c++\sdl_framework\lib\videoutil.h
+	"DisplayConfig.h"
+
+1347239701 e:\development\c++\sdl_framework\lib\displayconfig.h
+	<fstream>
+	<iostream>
+	<sstream>
+	<string>
+	<vector>
+	<map>
+	<stdlib.h>
+	<cstdlib>
+	"../utils/Log.h"
+
+1347239702 e:\development\c++\sdl_framework\utils\log.h
+	<fstream>
+	<iostream>
+	<cstdlib>
+	<string>
+	<exception>
+
+1347239701 e:\development\c++\sdl_framework\lib\drawer.h
+	"Draw.h"
+	"Drawable.h"
+
+1347239701 e:\development\c++\sdl_framework\lib\draw.h
+
+1347239701 e:\development\c++\sdl_framework\lib\drawable.h
+	"Draw.h"
+	"Interfaces/GeometricElement.h"
+	"Log.h"
+	"EventInterface.h"
+	<SDL/SDL.h>
+	<SDL/SDL_opengl.h>
+
+1347239701 e:\development\c++\sdl_framework\lib\eventinterface.h
+	"sigc++/sigc++.h"
+	<SDL/SDL.h>
+
+1347239702 e:\development\c++\sdl_framework\utils\sigc++\sigc++.h
+	"signal.h"
+	"connection.h"
+	"trackable.h"
+	"adaptors/adaptors.h"
+	"functors/functors.h"
+
+1347239702 e:\development\c++\sdl_framework\utils\sigc++\signal.h
+	<list>
+	"signal_base.h"
+	"type_traits.h"
+	"trackable.h"
+	"functors/slot.h"
+	"functors/mem_fun.h"
+
+1347239702 e:\development\c++\sdl_framework\utils\sigc++\signal_base.h
+	<cstddef>
+	<list>
+	"sigc++config.h"
+	"type_traits.h"
+	"trackable.h"
+	"functors/slot.h"
+	"functors/mem_fun.h"
+
+1347239702 e:\development\c++\sdl_framework\utils\sigc++\sigc++config.h
+
+1347239702 e:\development\c++\sdl_framework\utils\sigc++\type_traits.h
+	"sigc++config.h"
+
+1347239702 e:\development\c++\sdl_framework\utils\sigc++\trackable.h
+	<list>
+	"sigc++config.h"
+
+1347239702 e:\development\c++\sdl_framework\utils\sigc++\functors\slot.h
+	"../trackable.h"
+	"../visit_each.h"
+	"../adaptors/adaptor_trait.h"
+	"../functors/slot_base.h"
+
+1347239702 e:\development\c++\sdl_framework\utils\sigc++\visit_each.h
+	"type_traits.h"
+
+1347239702 e:\development\c++\sdl_framework\utils\sigc++\adaptors\adaptor_trait.h
+	"../sigc++config.h"
+	"../visit_each.h"
+	"../functors/functor_trait.h"
+	"../functors/ptr_fun.h"
+	"../functors/mem_fun.h"
+	"../adaptors/deduce_result_type.h"
+
+1347239702 e:\development\c++\sdl_framework\utils\sigc++\functors\functor_trait.h
+	"../type_traits.h"
+
+1347239702 e:\development\c++\sdl_framework\utils\sigc++\functors\ptr_fun.h
+	"../type_traits.h"
+	"../functors/functor_trait.h"
+
+1347239702 e:\development\c++\sdl_framework\utils\sigc++\functors\mem_fun.h
+	"../type_traits.h"
+	"../functors/functor_trait.h"
+	"../limit_reference.h"
+
+1347239702 e:\development\c++\sdl_framework\utils\sigc++\limit_reference.h
+	"type_traits.h"
+	"trackable.h"
+
+1347239702 e:\development\c++\sdl_framework\utils\sigc++\adaptors\deduce_result_type.h
+	"../functors/functor_trait.h"
+
+1347239702 e:\development\c++\sdl_framework\utils\sigc++\functors\slot_base.h
+	"../sigc++config.h"
+	"../trackable.h"
+	"../functors/functor_trait.h"
+
+1347239702 e:\development\c++\sdl_framework\utils\sigc++\connection.h
+	"sigc++config.h"
+	"signal.h"
+
+1347239702 e:\development\c++\sdl_framework\utils\sigc++\adaptors\adaptors.h
+	"bind.h"
+	"bind_return.h"
+	"hide.h"
+	"retype_return.h"
+	"retype.h"
+	"compose.h"
+	"exception_catch.h"
+	"lambda/lambda.h"
+
+1347239702 e:\development\c++\sdl_framework\utils\sigc++\adaptors\bind.h
+	"adaptor_trait.h"
+	"bound_argument.h"
+
+1347239702 e:\development\c++\sdl_framework\utils\sigc++\adaptors\bound_argument.h
+	"../limit_reference.h"
+	"../reference_wrapper.h"
+
+1347239702 e:\development\c++\sdl_framework\utils\sigc++\reference_wrapper.h
+
+1347239702 e:\development\c++\sdl_framework\utils\sigc++\adaptors\bind_return.h
+	"adaptor_trait.h"
+	"bound_argument.h"
+
+1347239702 e:\development\c++\sdl_framework\utils\sigc++\adaptors\hide.h
+	"adaptor_trait.h"
+
+1347239702 e:\development\c++\sdl_framework\utils\sigc++\adaptors\retype_return.h
+	"adaptor_trait.h"
+
+1347239702 e:\development\c++\sdl_framework\utils\sigc++\adaptors\retype.h
+	"adaptor_trait.h"
+	"../functors/ptr_fun.h"
+	"../functors/mem_fun.h"
+	"../functors/slot.h"
+
+1347239702 e:\development\c++\sdl_framework\utils\sigc++\adaptors\compose.h
+	"adaptor_trait.h"
+
+1347239702 e:\development\c++\sdl_framework\utils\sigc++\adaptors\exception_catch.h
+	"adaptor_trait.h"
+
+1347239702 e:\development\c++\sdl_framework\utils\sigc++\adaptors\lambda\lambda.h
+	"base.h"
+	"select.h"
+	"operator.h"
+	"group.h"
+
+1347239702 e:\development\c++\sdl_framework\utils\sigc++\adaptors\lambda\base.h
+	"../adaptor_trait.h"
+	"../../reference_wrapper.h"
+
+1347239702 e:\development\c++\sdl_framework\utils\sigc++\adaptors\lambda\select.h
+	"base.h"
+
+1347239702 e:\development\c++\sdl_framework\utils\sigc++\adaptors\lambda\operator.h
+	"base.h"
+
+1347239702 e:\development\c++\sdl_framework\utils\sigc++\adaptors\lambda\group.h
+	"base.h"
+
+1347239702 e:\development\c++\sdl_framework\utils\sigc++\functors\functors.h
+	"slot.h"
+	"ptr_fun.h"
+	"mem_fun.h"
+
+1347239701 e:\development\c++\sdl_framework\lib\container.h
+	<vector>
+	"Drawable.h"
+	"Render.h"
+
+1347242811 e:\development\c++\sdl_framework\utils\textrender.h
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<iostream>
+	<sstream>
+	<string>
+	"Log.h"
+
+1347239702 e:\development\c++\sdl_framework\utils\keys.h
+	<SDL/SDL.h>
+
+1347239702 e:\development\c++\sdl_framework\lib\particlegenerator.h
+	<cstdlib>
+	<iostream>
+	<vector>
+	<math.h>
+	"Particle.h"
+
+1347239702 e:\development\c++\sdl_framework\lib\particle.h
+
+1347239702 e:\development\c++\sdl_framework\lib\player.h
+	"Actors/Gun.h"
+	"ParticleGenerator.h"
+	"Audio/AudioPlayback.h"
+
+1347239701 e:\development\c++\sdl_framework\lib\actors\gun.h
+	<string>
+	"Weapon.h"
+
+1347239701 e:\development\c++\sdl_framework\lib\actors\weapon.h
+
+1347240501 e:\development\c++\sdl_framework\lib\audio\audioplayback.h
+	<SDL/SDL_mixer.h>
+	<map>
+	<string>
+	<vector>
+	"../../utils/Log.h"
+
+1347239701 e:\development\c++\sdl_framework\lib\environment.h
+
+1347240501 e:\development\c++\sdl_framework\utils\textureloader.h
+	<SDL/SDL.h>
+	<SDL/SDL_opengl.h>
+	<SDL/SDL_image.h>
+
+1347239701 e:\development\c++\sdl_framework\lib\menuhandler.h
+	"Menu.h"
+
+1347243777 e:\development\c++\sdl_framework\lib\menu.h
+	"../utils/TextRender.h"
+	"../utils/ImageManager.h"
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_opengl.h>
+	<string>
+	<list>
+	"Drawable.h"
+	"MenuOption.h"
+	"EventInterface.h"
+	<sstream>
+	"videoutil.h"
+	"../utils/Log.h"
+	"../utils/keys.h"
+	"../utils/stringfunctions.h"
+	"sigc++/sigc++.h"
+
+1347243522 e:\development\c++\sdl_framework\utils\imagemanager.h
+	<map>
+	<string>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_opengl.h>
+	"Log.h"
+
+1347239701 e:\development\c++\sdl_framework\lib\menuoption.h
+
+1347239702 e:\development\c++\sdl_framework\utils\stringfunctions.h
+	<sstream>
+
+1347239701 source:e:\development\c++\sdl_framework\lib\actors\gun.cpp
+	"Gun.h"
+
+1347239701 source:e:\development\c++\sdl_framework\lib\actors\weapon.cpp
+	"Weapon.h"
+
+1347239701 source:e:\development\c++\sdl_framework\lib\application.cpp
+	"Application.h"
+
+1347239701 e:\development\c++\sdl_framework\lib\application.h
+	"Core.h"
+	"keys.h"
+
+1347239701 e:\development\c++\sdl_framework\lib\core.h
+	"Render.h"
+	"EventTriggerer.h"
+	"keys.h"
+	"Container.h"
+
+1347239701 e:\development\c++\sdl_framework\lib\eventtriggerer.h
+	<SDL/SDL.h>
+	"Log.h"
+	"keys.h"
+
+1347239701 source:e:\development\c++\sdl_framework\lib\audio\audioplayback.cpp
+	"AudioPlayback.h"
+
+1347239701 source:e:\development\c++\sdl_framework\lib\container.cpp
+	"Container.h"
+
+1347239701 source:e:\development\c++\sdl_framework\lib\core.cpp
+	"Core.h"
+
+1347239701 source:e:\development\c++\sdl_framework\lib\displayconfig.cpp
+	"DisplayConfig.h"
+
+1347239701 source:e:\development\c++\sdl_framework\lib\drawable.cpp
+	"Drawable.h"
+
+1347239701 source:e:\development\c++\sdl_framework\lib\drawer.cpp
+	"Drawer.h"
+
+1347239701 source:e:\development\c++\sdl_framework\lib\environment.cpp
+	"Environment.h"
+
+1347239701 source:e:\development\c++\sdl_framework\lib\eventhandler.cpp
+	"EventHandler.h"
+
+1347239701 e:\development\c++\sdl_framework\lib\eventhandler.h
+	"../utils/keys.h"
+
+1347239701 source:e:\development\c++\sdl_framework\lib\game.cpp
+	"Game.h"
+
+1347239701 e:\development\c++\sdl_framework\lib\game.h
+	"Render.h"
+	<sstream>
+
+1347239701 source:e:\development\c++\sdl_framework\lib\menu.cpp
+	"Menu.h"
+
+1347239701 source:e:\development\c++\sdl_framework\lib\menuhandler.cpp
+	"MenuHandler.h"
+
+1347239702 source:e:\development\c++\sdl_framework\lib\particle.cpp
+	"Particle.h"
+
+1347239702 source:e:\development\c++\sdl_framework\lib\particlegenerator.cpp
+	"ParticleGenerator.h"
+
+1347239702 source:e:\development\c++\sdl_framework\lib\player.cpp
+	"Player.h"
+
+1347239702 source:e:\development\c++\sdl_framework\lib\render.cpp
+	"Render.h"
+
+1347239702 source:e:\development\c++\sdl_framework\main.cpp
+	"Application.h"
+
+1347243225 source:e:\development\c++\sdl_framework\utils\imagemanager.cpp
+	"ImageManager.h"
+
+1347239702 source:e:\development\c++\sdl_framework\utils\list.cpp
+
+1347239702 source:e:\development\c++\sdl_framework\utils\log.cpp
+	"Log.h"
+
+1347242913 source:e:\development\c++\sdl_framework\utils\textrender.cpp
+	"TextRender.h"
+
+1347239702 source:e:\development\c++\sdl_framework\utils\sigc++\adaptors\lambda\lambda.cc
+	<sigc++/adaptors/lambda/select.h>
+
+1347239702 source:e:\development\c++\sdl_framework\utils\sigc++\connection.cc
+	<sigc++/connection.h>
+
+1347239702 source:e:\development\c++\sdl_framework\utils\sigc++\functors\slot.cc
+	<sigc++/functors/slot.h>
+
+1347239702 source:e:\development\c++\sdl_framework\utils\sigc++\functors\slot_base.cc
+	<sigc++/functors/slot_base.h>
+
+1347239702 source:e:\development\c++\sdl_framework\utils\sigc++\signal.cc
+	<sigc++/signal.h>
+
+1347239702 source:e:\development\c++\sdl_framework\utils\sigc++\signal_base.cc
+	<sigc++/signal_base.h>
+
+1347239702 source:e:\development\c++\sdl_framework\utils\sigc++\trackable.cc
+	<sigc++/trackable.h>
+	<iostream>
+

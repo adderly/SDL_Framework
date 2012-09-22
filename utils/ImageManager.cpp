@@ -1,12 +1,9 @@
 #include"ImageManager.h"
 
-namespace Images
-{
 
-ImageManager::ImageManager()
-{
 
-}
+
+ImageManager::ImageManager() {}
 ImageManager::~ImageManager() {}
 inline void ImageManager::generate()
 {
@@ -92,4 +89,4 @@ unsigned int ImageManager::gen(const std::string name, SDL_Surface* src)
     add(name,actual);
     return actual;
 }
-}
+

@@ -6,10 +6,9 @@
 #include"Log.h"
 //generating images and textures
 
-namespace Images
-{
-#ifndef IMAGE
-#define IMAGE
+
+#ifndef IMAGE_MANAGER_H
+#define IMAGE_MANAGER_H
 class ImageManager
 {
     std::map<std::string,unsigned int> textures;//GLTextures name,id
@@ -28,5 +27,5 @@ public:
 
 };
 #endif
-}
+
 

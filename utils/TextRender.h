@@ -5,13 +5,12 @@
 #include<string>
 #include"Log.h"
 
-namespace Images
-{
-#ifndef TEXT
-#define TEXT
 
 
-class Text
+
+#ifndef TEXT_H
+#define TEXT_H
+class TextureRender
 {
     SDL_Color textColor;
     std::string fontLocation;
@@ -22,11 +21,12 @@ class Text
 public:
     TTF_Font*    font;
     SDL_Surface* tmp;
-    Text();
-    Text(std::string txt);
-    Text(SDL_Surface* main);
-    Text(SDL_Surface *texture,const std::string text,int size);
-    Text(SDL_Surface *texture,const std::string text,SDL_Color color);
+
+    TextureRender();
+    TextureRender(std::string txt);
+    TextureRender(SDL_Surface* main);
+    TextureRender(SDL_Surface *texture,const std::string text,int size);
+    TextureRender(SDL_Surface *texture,const std::string text,SDL_Color color);
     SDL_Surface* generate();
     SDL_Surface* generate(const std::string text);
     SDL_Surface* generate(const std::string text,int size);
@@ -55,7 +55,8 @@ public:
     {
         return this->fontSize;
     }
-    ~Text();
+    ~TextureRender();
 };
 #endif
-}
+
+
